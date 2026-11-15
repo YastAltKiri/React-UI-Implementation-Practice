@@ -1,0 +1,18 @@
+:root {
+  --cream: #FFF3DA;
+  --lilac: #DFCCFB;
+  --violet: #D0BFFF;
+  --purple: #BEADFA;
+  --ink: #2E2150;
+  --ink-soft: #5B4D85;
+  --white: #FFFCF5;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Poppins", system-ui, sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  min-height: 100vh;
+}
